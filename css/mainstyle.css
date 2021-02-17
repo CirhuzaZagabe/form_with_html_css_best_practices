@@ -11,6 +11,7 @@
 /* Element styles */
 * {
     font-family: sans-serif;
+    transition: all 1s;
 }
 
 /* Main styles */
@@ -85,10 +86,26 @@
     display: flex;
     flex: 1;
 }
+.bg-blue-wht-on-focus-transiter:hover {
+    background-color: var(--ourStrongBlue);
+    color: var(--ourWhite);
+}
+.pointer-cursor {
+    cursor: pointer;
+}
 .flex-columniser {
     display: flex;
     flex-direction: column;
     flex: 1;
+}
+.browser-margin-nullifier {
+    margin: 0;
+}
+.bottom-border-bluerer:hover {
+    border-bottom: 2px solid var(--ourStrongBlue);
+}
+.bottom-border-whitener:hover {
+    border-bottom: 2px solid var(--ourWhite);
 }
 .less-bottom-paddinger {
     padding-bottom: 0.7em;
