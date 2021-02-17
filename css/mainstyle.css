@@ -1,0 +1,143 @@
+/* constant values used in the page */
+:root {
+    --ourWeakBlue: #92a6e5;
+    --ourStrongBlue: #4935d4;
+    --ourClearBlue: #4f79ad;
+    --ourWhite: #fff;
+    --ourWeakBlack: #212121;
+    --ourWeakWhite: #d4d4d4;
+}
+
+/* Element styles */
+* {
+    font-family: sans-serif;
+}
+
+/* Main styles */
+.border-weak-blacker {
+    border-color: var(--ourWeakBlack);
+}
+.text-weak-blacker {
+    color: var(--ourWeakBlack);
+}
+.border-weak-whitener {
+    border-color: var(--ourWeakWhite);
+}
+.text-weak-whitener {
+    color: var(--ourWeakWhite);
+}
+.simple-left-border-radiucer {
+    border-radius: 20px 0 0 20px;
+}
+.simple-right-border-radiucer {
+    border-radius: 0 20px 20px 0;
+}
+.link-natural-style-nullifier {
+    text-decoration: none;
+}
+.bloc-divider {
+    display: flex;
+}
+.border-pre-style-breaker {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #858282;
+    background: #fff;
+}
+.bloc-displayer-with-less-margin-t-b {
+    display: block;
+    margin: 2em 0 2em 0;
+}
+.simple-left-marginer {
+    margin-left: 2.2em;
+}
+.border-pre-style-breaker-with-blue-bg {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #858282;
+    background: var(--ourStrongBlue);
+}
+.width-maximiser {
+    width: 100%;
+}
+.item-1 {
+    display: flex;
+    flex: 1;
+}
+.item-2 {
+    display: flex;
+    flex: 2;
+}
+.item-3 {
+    display: flex;
+    flex: 3;
+}
+.focus-border-style-nullifier:focus {
+    outline: none;
+}
+.item-4 {
+    display: flex;
+    flex: 4;
+}
+.container-row {
+    display: flex;
+    flex: 1;
+}
+.flex-columniser {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.less-bottom-paddinger {
+    padding-bottom: 0.7em;
+}
+.width-height-equalizer {
+    width: 50%;
+}
+.simple-bloc-paddinger {
+    padding: 50px;
+}
+.less-paddinger {
+    padding: 10px;
+}
+.mean-paddinger {
+    padding: 5%;
+}
+.simple-top-bottom-scoper {
+    margin: 1.3em 0 1.3em 0;
+}
+.main-title-sizer {
+    font-size: 1.5rem;
+}
+.text-whitener {
+    color: var(--ourWhite);
+}
+.less-top-bottom-scoper {
+    margin: 1.2em 0 1.2em 0;
+}
+.text-clear-bluer {
+    color: var(--ourClearBlue);
+}
+.bg-whitener {
+    background-color: var(--ourWhite);
+}
+.bg-weak-bluer {
+    background-color: var(--ourWeakBlue);
+}
+.bg-strong-bluer {
+    background-color: var(--ourStrongBlue);
+}
+.less-right-marginer {
+    margin-right: 1.2em;
+}
+.simple-border-radiuser {
+    border-radius: 20px;
+}
+.bolder {
+    font-weight: bold;
+}
+.border-nullifier {
+    border: none;
+}
