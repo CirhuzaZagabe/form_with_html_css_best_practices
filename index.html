@@ -7,71 +7,106 @@
     <link rel="stylesheet" href="css/mainstyle.css">
     <title>Credentials - Registering</title>
 </head>
-<body class="browser-margin-nullifier">
-    <div class="bloc-divider simple-bloc-paddinger bg-weak-bluer container-row">
-        <div class="bg-whitener simple-left-border-radiucer mean-paddinger width-height-equalizer flex-columniser">
-            <form action="" >
-                <p>
-                    <h2 class="text-clear-bluer main-title-sizer">General Information</h2>
-                    <select name="" id="" class="border-pre-style-breaker bottom-border-bluerer focus-border-style-nullifier width-maximiser border-weak-blacker text-weak-blacker less-top-bottom-scoper less-bottom-paddinger">
-                        <option value="">Title</option>
-                        <option value="">Director Manager</option>
-                        <option value="">Marketing Supervisor</option>
-                        <option value="">Assistant Developer</option>
-                        <option value="">Junior Developer</option>
-                        <option value="">Senior Developer</option>
+<body class="browser-margin-nullifier bg-weak-bluer">
+    <div class="container-row three-per-four-metrics translate-to-center">
+        <div class="bg-whitener simple-left-border-radiucer mean-paddinger flx-width-equalizer">
+            <form action="" name="formGrnInfo">
+                <h2 class="text-clear-bluer">General Information</h2>
+                <p class="width-maximiser bloc-displayer-with-less-margin-t-b">
+                    <select 
+                    name="userTitle" id=""
+                    class="width-maximiser text-weak-blacker focus-border-style-nullifier bottom-border-bluerer border-pre-style-breaker less-bottom-paddinger">
+                        <option value="title">Title</option>
+                        <option value="dirManag">Director Manager</option>
+                        <option value="markSup">Marketing Supervisor</option>
+                        <option value="assDev">Assistant Developer</option>
+                        <option value="junDev">Junior Developer</option>
+                        <option value="senDev">Senior Developer</option>
                     </select>
-                    <p class="width-maximiser item-1">
-                        <input type="text" name="" id="" placeholder="First Name" class="less-right-marginer less-bottom-paddinger item-1 border-pre-style-breaker bottom-border-bluerer focus-border-style-nullifier border-weak-blacker text-weak-blacker">
-                        <input type="text" name="" id="" placeholder="Last Name" class="item-1 border-pre-style-breaker bottom-border-bluerer focus-border-style-nullifier less-bottom-paddinger border-weak-blacker text-weak-blacker">
-                    </p>
-                    <select name="" id="" class=" border-pre-style-breaker bottom-border-bluerer focus-border-style-nullifier width-maximiser border-weak-blacker text-weak-blacker less-top-bottom-scoper less-bottom-paddinger">
-                        <option value="">Position</option>
-                        <option value="">One</option>
-                        <option value="">None</option>
+                </p>
+                <p class="width-maximiser flx-between-separater bloc-displayer-with-less-margin-t-b">
+                    <input type="text" name="frstNam" id="" placeholder="First Name"
+                    class="border-pre-style-breaker one-per-two-width text-weak-blacker focus-border-style-nullifier bottom-border-bluerer flx-width-equalizer less-bottom-paddinger">
+                    <input type="text" name="lstNam" id="" placeholder="Last Name"
+                    class="border-pre-style-breaker one-per-two-width text-weak-blacker focus-border-style-nullifier bottom-border-bluerer flx-width-equalizer less-bottom-paddinger">
+                </p>
+                <p class="width-maximiser bloc-displayer-with-less-margin-t-b">
+                    <select name="userPosition" id=""
+                    class="width-maximiser text-weak-blacker focus-border-style-nullifier bottom-border-bluerer border-pre-style-breaker less-bottom-paddinger">
+                        <option value="userPos">Position</option>
+                        <option value="userPosOne">One</option>
+                        <option value="userPosNone">None</option>
                     </select>
-                    <input type="text" name="" id="" placeholder="Company" class="border-pre-style-breaker bottom-border-bluerer focus-border-style-nullifier width-maximiser border-weak-blacker text-weak-blacker less-top-bottom-scoper less-bottom-paddinger">
-                    <p class="width-maximiser item-1">
-                        <input type="text" name="" id="" placeholder="Business Area" class="less-right-marginer less-bottom-paddinger item-1 border-pre-style-breaker bottom-border-bluerer focus-border-style-nullifier border-weak-blacker text-weak-blacker">
-                        <select name="" id="" class="item-1 border-pre-style-breaker bottom-border-bluerer focus-border-style-nullifier border-weak-blacker less-bottom-paddinger text-weak-blacker">
-                            <option value="">Employees</option>
-                            <option value="">200+</option>
-                            <option value="">300+</option>
-                            <option value="">400+</option>
-                            <option value="">500+</option>
-                        </select>
-                    </p>
+                </p>
+                <p class="width-maximiser bloc-displayer-with-less-margin-t-b">
+                   <input type="text" name="userCompany" id="" placeholder="Company"
+                   class="width-maximiser text-weak-blacker focus-border-style-nullifier bottom-border-bluerer border-pre-style-breaker less-bottom-paddinger"> 
+                </p>
+                <p class="width-maximiser flx-between-separater bloc-displayer-with-less-margin-t-b">
+                    <input type="text" name="bsnsArea" id="" placeholder="Business Area" 
+                    class="border-pre-style-breaker one-per-two-width text-weak-blacker focus-border-style-nullifier bottom-border-bluerer flx-width-equalizer less-bottom-paddinger">
+                    <select name="emplAmount" id=""
+                    class="border-pre-style-breaker one-per-two-width text-weak-blacker focus-border-style-nullifier bottom-border-bluerer flx-width-equalizer less-bottom-paddinger">
+                        <option value="empl">Employees</option>
+                        <option value="200">200+</option>
+                        <option value="300">300+</option>
+                        <option value="400">400+</option>
+                        <option value="500">500+</option>
+                    </select>
                 </p>
             </form>
         </div>
-        <div class="bg-strong-bluer simple-right-border-radiucer mean-paddinger width-height-equalizer flex-columniser">
-            <form action="">
-                <h2 class="text-whitener main-title-sizer">Contact Detail</h2>
-                <input type="text" name="" id="" placeholder="Street * Nr" class="focus-border-style-nullifier width-maximiser less-top-bottom-scoper border-pre-style-breaker-with-blue-bg bottom-border-whitener less-bottom-paddinger border-weak-whitener text-weak-whitener">
-                <input type="text" name="" id="" placeholder="Additional Information" class="focus-border-style-nullifier width-maximiser less-top-bottom-scoper border-pre-style-breaker-with-blue-bg bottom-border-whitener less-bottom-paddinger  border-weak-whitener text-weak-whitener">
-                <p class="width-maximiser item-1">
-                    <input type="text" name="" id="" placeholder="Zip Code" class="item-1 less-right-marginer border-pre-style-breaker-with-blue-bg bottom-border-whitener less-bottom-paddinger focus-border-style-nullifier border-weak-whitener text-weak-whitener">
-                    <select name="" id="" class="item-3 focus-border-style-nullifier border-weak-whitener border-pre-style-breaker-with-blue-bg bottom-border-whitener less-bottom-paddinger text-weak-whitener">
-                        <option value="">Place</option>
-                        <option value="">Avenue</option>
+        <div class="bg-strong-bluer simple-right-border-radiucer mean-paddinger flx-width-equalizer">
+            <form action="" name="formContactDetail">
+                <h2 class="text-whitener">Contact Detail</h2>
+                <p class="width-maximiser bloc-displayer-with-less-margin-t-b">
+                    <input type="text" name="street" id="" placeholder="Street * Nr"
+                    class="width-maximiser text-whitener focus-border-style-nullifier bottom-border-whitener border-pre-style-breaker-with-blue-bg less-bottom-paddinger">
+                </p>
+                <p class="width-maximiser bloc-displayer-with-less-margin-t-b">
+                    <input type="text" name="moreInfo" id="" placeholder="Additional Information"
+                    class="width-maximiser text-whitener focus-border-style-nullifier bottom-border-whitener border-pre-style-breaker-with-blue-bg less-bottom-paddinger">
+                </p>
+                <p class="width-maximiser bloc-displayer-with-less-margin-t-b flx-between-separater">
+                    <input type="text" name="zip" id="" placeholder="Zip Code"
+                    class="border-pre-style-breaker-with-blue-bg one-per-three-width text-whitener focus-border-style-nullifier bottom-border-whitener flx-width-equalizer less-bottom-paddinger">
+                    <select name="place" id=""
+                    class="border-pre-style-breaker-with-blue-bg three-per-four text-whitener focus-border-style-nullifier bottom-border-whitener flx-width-equalizer less-bottom-paddinger">
+                        <option value="place">Place</option>
+                        <option value="avn">Avenue</option>
                     </select>
                 </p>
-                <select name="" id="" class=" focus-border-style-nullifier width-maximiser less-top-bottom-scoper border-pre-style-breaker-with-blue-bg bottom-border-whitener less-bottom-paddinger  border-weak-whitener text-weak-whitener">
-                    <option value="">Country</option>
-                    <option value="">Albanie</option>
-                    <option value="">...</option>
-                </select>
-                <p class="width-maximiser item-1">
-                    <select name="" id="" class="item-1 border-pre-style-breaker-with-blue-bg  bottom-border-whitener less-bottom-paddinger less-right-marginer focus-border-style-nullifier border-weak-whitener text-weak-whitener">
-                        <option value="">Code +</option>
-                        <option value="">+1</option>
-                        <option value="">...</option>
+                <p class="width-maximiser bloc-displayer-with-less-margin-t-b">
+                    <select name="country" id="" 
+                    class="width-maximiser text-whitener focus-border-style-nullifier bottom-border-whitener border-pre-style-breaker-with-blue-bg less-bottom-paddinger">
+                        <option value="cntry">Country</option>
+                        <option value="albnie">Albanie</option>
+                        <option value="...">...</option>
                     </select>
-            <input type="number" name="" id="" placeholder="Phone Number" class="item-3 border-pre-style-breaker-with-blue-bg bottom-border-whitener less-bottom-paddinger focus-border-style-nullifier border-weak-whitener text-weak-whitener">
                 </p>
-                <input type="email" name="" id="" placeholder="Your Email" class="focus-border-style-nullifier width-maximiser less-top-bottom-scoper border-pre-style-breaker-with-blue-bg bottom-border-whitener less-bottom-paddinger border-weak-whitener text-weak-whitener">
-                <p class="text-whitener simple-top-bottom-scoper"><input type="radio" name="" id="form-accept">I do accept the <a href="#" class="bolder text-whitener link-natural-style-nullifier">Terms and Conditions</a> of your site</p>
-                <input type="button" value="Register Badge" class="simple-border-radiuser pointer-cursor bg-blue-wht-on-focus-transiter text-clear-bluer bolder bg-whitener border-nullifier less-paddinger bloc-displayer-with-less-margin-t-b">
+                <p class="width-maximiser bloc-displayer-with-less-margin-t-b flx-between-separater">
+                    <select name="countryCode" id=""
+                    class="border-pre-style-breaker-with-blue-bg one-per-three-width text-whitener focus-border-style-nullifier bottom-border-whitener flx-width-equalizer less-bottom-paddinger">
+                        <option value="+">Code +</option>
+                        <option value="+1">+1</option>
+                        <option value="...">...</option>
+                    </select>
+                    <input type="number" name="phoneNumb" id="" placeholder="Phone Number"
+                    class="border-pre-style-breaker-with-blue-bg three-per-four text-whitener focus-border-style-nullifier bottom-border-whitener flx-width-equalizer less-bottom-paddinger">
+                </p>
+                <p class="width-maximiser bloc-displayer-with-less-margin-t-b">
+                    <input type="email" name="userMail" id="" placeholder="Your E-mail"
+                    class="width-maximiser text-whitener focus-border-style-nullifier bottom-border-whitener border-pre-style-breaker-with-blue-bg less-bottom-paddinger">
+                </p>
+                <p class="bloc-displayer-with-less-margin-t-b text-weak-blacker">
+                    <input type="radio" name="agreeBtn" id=""
+                    class="">
+                    I do accept the <a href="#" class="bolder link-natural-style-nullifier text-whitener">Terms and Conditions</a> of your site
+                </p>
+                <p class="width-maximiser bloc-displayer-with-less-margin-t-b">
+                    <input type="button" value="Register Badge"
+                    class="border-nullifier less-paddinger pointer-cursor bolder focus-border-style-nullifier simple-border-radiuser bg-blue-wht-on-focus-transiter">
+                </p>
             </form>
         </div>
     </div>
